@@ -1,0 +1,3787 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>43f23f4eef3c4c279e88c8e7259a5f20</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="s1t-1CRMp3nY" class="cell markdown" id="s1t-1CRMp3nY">
+<h2>Who Should You Target Early In Your 2023 Fantasy Football Draft?</h2>
+</div>
+<div id="joIgp7Fvjkar" class="cell markdown" id="joIgp7Fvjkar">
+<p>Written By: Tyler Jenkins, Andy Grover, Calvin Pitney, and Sean
+Rountree</p>
+</div>
+<div id="4JsRz6gwPZBB" class="cell markdown" id="4JsRz6gwPZBB">
+<h3>
+<p>How Does Fantasy Football Work</h4></p>
+<p>Fantasy football isn't a new concept, and isn't all that compicated,
+but for those just getting into fantasy football it can be hard to
+understand. In fantasy football you pick players much like a real NFL
+team would, filling your team with quarterbacks, running backs, wide
+recievers, and tight ends. Every game in the regular season these
+players play, they earn you "fantasy points." Fantasy points can come
+from receptions, touchdowns, rushing yards, passing yards, etc. Based on
+these categories, each player earns your team points. For example if a
+quarterback throws 3 touchdowns, they may earn your team 21 points. Each
+week your team plays another team in your "fantasy league," the team
+with the most points at the end of the week wins, much like real
+football. Because fantasy operates on points, when drafting and
+selecting the players you want to play for your team, you generally want
+to select the players that will produce the most points, thats where our
+analysis comes in. Through this tutotial we will analyze fantasy and
+player data over the last 3 seasons and help make educated decisions as
+to what players we should target in 2023. It is worth noting that once a
+player is taken in the draft no other player can also have that player
+(much like a normal football draft).</p>
+<p>Please visit <a
+href="https://www.espn.com/fantasy/football/story/_/id/34389554/fantasy-football-beginners-how-play-fantasy-football-2022"
+class="uri">https://www.espn.com/fantasy/football/story/_/id/34389554/fantasy-football-beginners-how-play-fantasy-football-2022</a>
+for more information as to how fantasy football works!</p>
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/bc2d4f8f78fb723e1ee604aafd634cf0668c79f4.png"
+alt="image.png" /></p>
+</div>
+<div id="e7899fa4" class="cell markdown" id="e7899fa4">
+<p>In this tutorial we will look at historical fantasy football data in
+order to influnece and educate the best possible picks for the 2023
+season. Due to the unpredictable nature of live fantasy football drafts,
+we will focus our analysis on the early rounds of the draft, where more
+players are likely to be available, and where the draft is usually more
+predictable due to people wanting to pick the best players possible, not
+usually picking up rookies.</p>
+</div>
+<div id="a5136061" class="cell markdown" id="a5136061">
+<h3>Section 0: Important Imports</h3>
+<ol>
+<li><p>Pandas - Pandas will allow us to use table like structures
+(dataframes) in our code, this makes aggregating data and running quick
+analyses simple and seemless, for more documentation please visit <a
+href="https://pandas.pydata.org/docs/"
+class="uri">https://pandas.pydata.org/docs/</a></p></li>
+<li><p>Numpy - When simple array structures don't suffice, we will
+utilize numpy arrays. These arrays allow for a higher level of
+mathematical operations and linear algebra, allowing us to do regression
+analysis and machine learning. For documentation please visit <a
+href="https://numpy.org" class="uri">https://numpy.org</a></p></li>
+<li><p>Matplotlib - Matplotlib will allow for graphing techniques like
+scatter plots, bar charts, and line graphs. This will be essential in
+visualizing our data. For dcoumentation please visit <a
+href="https://matplotlib.org"
+class="uri">https://matplotlib.org</a></p></li>
+<li><p>Ipython - Ipython will help us visualize the pandas dataframes in
+a more user friendly manner. More specifically we will utilize the
+display functionality of IPython when viewing dataframes. This is a
+personal preference and not needed. You can always do print(df.head())
+to view dataframes as well. Please visit <a
+href="https://ipython.readthedocs.io/en/stable/"
+class="uri">https://ipython.readthedocs.io/en/stable/</a> for more
+information</p></li>
+<li><p>statsmodels.formula.api - the statsmodel formula api will allow
+us to perform wide varieties of regression analysis. This will help
+uncover trends, determine periods of increase and decrease, and
+ultimately gives us better insight into data. For more information
+please visit <a href="https://www.statsmodels.org/stable/index.html"
+class="uri">https://www.statsmodels.org/stable/index.html</a></p></li>
+<li><p>matplotlib pyplot - The matplotlib pyplot library offers powerful
+tools that we will use to plot and anlyze data. These tools allow for
+all kinds of plots including scatter, bar, and pie chart. Please visit
+<a href="https://matplotlib.org/stable/index.html"
+class="uri">https://matplotlib.org/stable/index.html</a> for more
+information.</p></li>
+<li><p>sklearn - sklearn is part of the scikit learn library and enables
+powerful metrics and analysis tools. In this tutorial we will be using
+sklearn to perform linear regressions, ridge regressions, and performing
+metrics and model training. For more information please visit <a
+href="https://scikit-learn.org/stable/"
+class="uri">https://scikit-learn.org/stable/</a></p></li>
+</ol>
+</div>
+<div id="fe2ab4d4" class="cell code" data-execution_count="90"
+id="fe2ab4d4">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.formula.api <span class="im">as</span> smf</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> preprocessing, svm, linear_model</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> Ridge</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span></code></pre></div>
+</div>
+<div id="16b1fcf3" class="cell markdown" id="16b1fcf3">
+<h3>Section 1: Data Curation</h3>
+<p>Fantasy Football data is fairly accessible due primarily to Fantasy
+Football's popularity among american culture. People spend months
+trading players, betting on players, and acquiring new players, so it is
+only natural that fantasy data is made public. We have decided to use an
+online github repository to aide in our data curation. The GitHub
+repository includes yearly statistics such as points, games played,
+team, position, touchdowns, yards, fumbles, and much more. Please go to
+<a href="https://github.com/bendominguez0111/fantasy-csv-data"
+class="uri">https://github.com/bendominguez0111/fantasy-csv-data</a>,
+for all available fantasy football data and statistics. This repository
+contains a lot of useful information, however only includes years up to
+the 2021 season. This is due to the fact that the last NFL season was
+the 2022 season and the data for that season has not been made free yet,
+and thus is stuck behind pay walls. Because of this, we will utilize the
+3 most recent years (2019, 2020, ,2021) to conduct our analysis.</p>
+</div>
+<div id="70551e44" class="cell markdown" id="70551e44">
+<h4>Get Desired Data Into Pandas Dataframes</h4>
+</div>
+<div id="e41d5b47" class="cell code" data-execution_count="74"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:670}"
+id="e41d5b47" data-outputId="8f611cc0-c647-4c38-b385-cb0c18fbe3e4">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Here we will read a csv file, provided to us on a public github page, into a pandas dataframe</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#The csv file provides an index column as the first column of the dataset, so when reading the data into the pandas</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#dataframe we will tell pandas to use that column as the index, this removes duplicate index columns for 2021</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>url_2019 <span class="op">=</span> <span class="st">&quot;https://raw.githubusercontent.com/fantasydatapros/data/master/yearly/2019.csv&quot;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>url_2020 <span class="op">=</span> <span class="st">&quot;https://raw.githubusercontent.com/fantasydatapros/data/master/yearly/2020.csv&quot;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>url_2021 <span class="op">=</span> <span class="st">&quot;https://raw.githubusercontent.com/fantasydatapros/data/master/yearly/2021.csv&quot;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Dataframe for 2019</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>df_2019 <span class="op">=</span> pd.read_csv(url_2019)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Dataframe for 2020</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>df_2020 <span class="op">=</span> pd.read_csv(url_2020)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co">#Dataframe for 2021</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>df_2021 <span class="op">=</span> pd.read_csv(url_2021, index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(display(df_2020))</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-dc5f5534-3fc5-4c00-87ae-036f3d865f4b">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Player</th>
+      <th>Tm</th>
+      <th>Pos</th>
+      <th>Age</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>Tgt</th>
+      <th>Rec</th>
+      <th>PassingYds</th>
+      <th>PassingTD</th>
+      <th>PassingAtt</th>
+      <th>RushingYds</th>
+      <th>RushingTD</th>
+      <th>RushingAtt</th>
+      <th>ReceivingYds</th>
+      <th>ReceivingTD</th>
+      <th>FantasyPoints</th>
+      <th>Int</th>
+      <th>Fumbles</th>
+      <th>FumblesLost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Derrick Henry</td>
+      <td>TEN</td>
+      <td>RB</td>
+      <td>26</td>
+      <td>16</td>
+      <td>16</td>
+      <td>31</td>
+      <td>19</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2027</td>
+      <td>17</td>
+      <td>378</td>
+      <td>114</td>
+      <td>0</td>
+      <td>314.0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alvin Kamara</td>
+      <td>NOR</td>
+      <td>RB</td>
+      <td>25</td>
+      <td>15</td>
+      <td>10</td>
+      <td>107</td>
+      <td>83</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>932</td>
+      <td>16</td>
+      <td>187</td>
+      <td>756</td>
+      <td>5</td>
+      <td>295.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Dalvin Cook</td>
+      <td>MIN</td>
+      <td>RB</td>
+      <td>25</td>
+      <td>14</td>
+      <td>14</td>
+      <td>54</td>
+      <td>44</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1557</td>
+      <td>16</td>
+      <td>312</td>
+      <td>361</td>
+      <td>1</td>
+      <td>294.0</td>
+      <td>0</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Travis Kelce</td>
+      <td>KAN</td>
+      <td>TE</td>
+      <td>31</td>
+      <td>15</td>
+      <td>15</td>
+      <td>145</td>
+      <td>105</td>
+      <td>4</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1416</td>
+      <td>11</td>
+      <td>208.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Davante Adams</td>
+      <td>GNB</td>
+      <td>WR</td>
+      <td>28</td>
+      <td>14</td>
+      <td>14</td>
+      <td>149</td>
+      <td>115</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1374</td>
+      <td>18</td>
+      <td>243.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>621</th>
+      <td>Andre Roberts</td>
+      <td>BUF</td>
+      <td>WR</td>
+      <td>32</td>
+      <td>15</td>
+      <td>0</td>
+      <td>5</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-3</td>
+      <td>0</td>
+      <td>1</td>
+      <td>34</td>
+      <td>0</td>
+      <td>-1.0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>622</th>
+      <td>Nate Sudfeld</td>
+      <td>PHI</td>
+      <td>QB</td>
+      <td>27</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>32</td>
+      <td>0</td>
+      <td>12</td>
+      <td>12</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-2.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>623</th>
+      <td>Nsimba Webster</td>
+      <td>LAR</td>
+      <td>NaN</td>
+      <td>24</td>
+      <td>16</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-2.0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>624</th>
+      <td>Dede Westbrook</td>
+      <td>JAX</td>
+      <td>WR</td>
+      <td>27</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td>-2.0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>625</th>
+      <td>Kendall Hinton</td>
+      <td>DEN</td>
+      <td>WR</td>
+      <td>23</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>13</td>
+      <td>0</td>
+      <td>9</td>
+      <td>7</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>-3.0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>626 rows × 20 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-dc5f5534-3fc5-4c00-87ae-036f3d865f4b')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-dc5f5534-3fc5-4c00-87ae-036f3d865f4b button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-dc5f5534-3fc5-4c00-87ae-036f3d865f4b');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output stream stdout">
+<pre><code>None
+</code></pre>
+</div>
+</div>
+<div id="a8583a91" class="cell markdown" id="a8583a91">
+<h4>Data Curation Clean Up</h4>
+<p>Upon a first inspection of the data, we can see that player names
+include extrennuous values (such as + and * ) that we wish to remove for
+a better, and cleaner analysis. We will utilize pandas functionality in
+order to accomplish this. When looking at the full dataset, * and + are
+the only non alphabetic characters included in the Player column, so we
+can simply use 2 replace methods rather than dealing with regex.</p>
+</div>
+<div id="fdda5c45" class="cell code" data-execution_count="75"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:653}"
+id="fdda5c45" data-outputId="c395e71c-e281-4ece-a1f1-dc89d65e6bdd">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Replace * from player names</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df_2019[<span class="st">&#39;Player&#39;</span>] <span class="op">=</span> df_2019[<span class="st">&#39;Player&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;*&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>df_2020[<span class="st">&#39;Player&#39;</span>] <span class="op">=</span> df_2020[<span class="st">&#39;Player&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;*&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>df_2021[<span class="st">&#39;Player&#39;</span>] <span class="op">=</span> df_2021[<span class="st">&#39;Player&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;*&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Replace + from player names</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>df_2019[<span class="st">&#39;Player&#39;</span>] <span class="op">=</span> df_2019[<span class="st">&#39;Player&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;+&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>df_2020[<span class="st">&#39;Player&#39;</span>] <span class="op">=</span> df_2020[<span class="st">&#39;Player&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;+&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>df_2021[<span class="st">&#39;Player&#39;</span>] <span class="op">=</span> df_2021[<span class="st">&#39;Player&#39;</span>].<span class="bu">str</span>.replace(<span class="st">&#39;+&#39;</span>, <span class="st">&#39;&#39;</span>, regex<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>display(df_2021)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-c09b36bd-4c46-4f64-ac8d-36fcf2714a9d">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Player</th>
+      <th>Tm</th>
+      <th>Pos</th>
+      <th>Age</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>Tgt</th>
+      <th>Rec</th>
+      <th>PassingYds</th>
+      <th>PassingTD</th>
+      <th>PassingAtt</th>
+      <th>RushingYds</th>
+      <th>RushingTD</th>
+      <th>RushingAtt</th>
+      <th>ReceivingYds</th>
+      <th>ReceivingTD</th>
+      <th>FantasyPoints</th>
+      <th>Int</th>
+      <th>Fumbles</th>
+      <th>FumblesLost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jonathan Taylor</td>
+      <td>IND</td>
+      <td>RB</td>
+      <td>22</td>
+      <td>17</td>
+      <td>17</td>
+      <td>51.0</td>
+      <td>40.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1811.0</td>
+      <td>18.0</td>
+      <td>332.0</td>
+      <td>360.0</td>
+      <td>2.0</td>
+      <td>333.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Cooper Kupp</td>
+      <td>LAR</td>
+      <td>WR</td>
+      <td>28</td>
+      <td>17</td>
+      <td>17</td>
+      <td>191.0</td>
+      <td>145.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>18.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>1947.0</td>
+      <td>16.0</td>
+      <td>295.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Deebo Samuel</td>
+      <td>SFO</td>
+      <td>WR</td>
+      <td>25</td>
+      <td>16</td>
+      <td>15</td>
+      <td>121.0</td>
+      <td>77.0</td>
+      <td>24.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>365.0</td>
+      <td>8.0</td>
+      <td>59.0</td>
+      <td>1405.0</td>
+      <td>6.0</td>
+      <td>262.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Josh Allen</td>
+      <td>BUF</td>
+      <td>QB</td>
+      <td>25</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4407.0</td>
+      <td>36.0</td>
+      <td>646.0</td>
+      <td>763.0</td>
+      <td>6.0</td>
+      <td>122.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>403.0</td>
+      <td>15.0</td>
+      <td>8.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Austin Ekeler</td>
+      <td>LAC</td>
+      <td>RB</td>
+      <td>26</td>
+      <td>16</td>
+      <td>16</td>
+      <td>94.0</td>
+      <td>70.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>911.0</td>
+      <td>12.0</td>
+      <td>206.0</td>
+      <td>647.0</td>
+      <td>8.0</td>
+      <td>274.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>666</th>
+      <td>Travis Benjamin</td>
+      <td>SFO</td>
+      <td>NaN</td>
+      <td>32</td>
+      <td>10</td>
+      <td>0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>667</th>
+      <td>Trenton Cannon</td>
+      <td>2TM</td>
+      <td>RB</td>
+      <td>27</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>0.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>668</th>
+      <td>John Wolford</td>
+      <td>LAR</td>
+      <td>QB</td>
+      <td>26</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>-1.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>669</th>
+      <td>Josh Rosen</td>
+      <td>ATL</td>
+      <td>QB</td>
+      <td>24</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>19.0</td>
+      <td>0.0</td>
+      <td>11.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-3.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>670</th>
+      <td>Diontae Spencer</td>
+      <td>DEN</td>
+      <td>WR</td>
+      <td>29</td>
+      <td>15</td>
+      <td>0</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-3.0</td>
+      <td>0.0</td>
+      <td>-4.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>671 rows × 20 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-c09b36bd-4c46-4f64-ac8d-36fcf2714a9d')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-c09b36bd-4c46-4f64-ac8d-36fcf2714a9d button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-c09b36bd-4c46-4f64-ac8d-36fcf2714a9d');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="151775cc" class="cell markdown" id="151775cc">
+<h4>Searching For Missing values</h4>
+<p>In this section we will search the dataframe for missing values as
+missing values could effect our analysis by skewing results or simply
+falsyifying results. We will start by looking at the percentage of rows
+with missing data. This will help with analysis as it will show us the
+best way to handle missing data. We will once again use pandas
+functionality in order to accomplish this. As we will see, there are
+quite a few columns that have missing values, with 2021 having the
+highest number of rows containing missing data, with 13% of rows missing
+data. To combat this we will look at the types of the columns and
+replace missing data appropriately and as necessary. For the position
+column we will utilize the string "NA" to represent players with an
+unscpecified position. This will allow us to group these sorts of
+players in one group when analyzing the data. The rest of the columns
+containing null/missing values happen to all be floats. We will replace
+the values in these columns with 0.0 due to the fact that we want to
+analyze the data we have and thus assume these missing values are 0.0.
+This could introduce some bias into the data, but the rows that contain
+missing data have missing data in columns that donot necessarily
+correspond to the player's position. For example, some running backs
+have missing data in the interceptions category column, which is due to
+the fact that running backs don't throw the ball. Because of this, and
+the relatively low percentage of rows with missing values, we are
+comfortable filling in 0.0 for all float typed columns with missing
+values.</p>
+</div>
+<div id="b0cf9a41" class="cell code" data-execution_count="76"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:0}"
+id="b0cf9a41" data-outputId="ef99557a-d28b-47c2-a8df-53632c0cf51a">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#See the percentage of columns with missing values</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Percentage of rows with missing data 2019: </span><span class="sc">{</span>df_2019<span class="sc">.</span>isnull()<span class="sc">.</span><span class="bu">any</span>(axis<span class="op">=</span><span class="dv">1</span>)<span class="sc">.</span><span class="bu">sum</span>()<span class="op">/</span><span class="bu">len</span>(df_2019.index) <span class="op">*</span> <span class="dv">100</span><span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Percentage of rows with missing data 2020: </span><span class="sc">{</span>df_2020<span class="sc">.</span>isnull()<span class="sc">.</span><span class="bu">any</span>(axis<span class="op">=</span><span class="dv">1</span>)<span class="sc">.</span><span class="bu">sum</span>()<span class="op">/</span><span class="bu">len</span>(df_2020.index) <span class="op">*</span> <span class="dv">100</span><span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Percentage of rows with missing data 2021: </span><span class="sc">{</span>df_2021<span class="sc">.</span>isnull()<span class="sc">.</span><span class="bu">any</span>(axis<span class="op">=</span><span class="dv">1</span>)<span class="sc">.</span><span class="bu">sum</span>()<span class="op">/</span><span class="bu">len</span>(df_2021.index) <span class="op">*</span> <span class="dv">100</span><span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Percentage of rows with missing data 2019: 0.0
+Percentage of rows with missing data 2020: 9.105431309904153
+Percentage of rows with missing data 2021: 13.710879284649776
+</code></pre>
+</div>
+</div>
+<div id="95da562a" class="cell code" data-execution_count="77"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:653}"
+id="95da562a" data-outputId="0dc1bdf0-60eb-4698-b0a2-7922b75d7872">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">First we want to replace the null values in the position column with a placeholder that we&#39;ll call &quot;NA&quot;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">All players with no specified position will have the same NA value</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co">please see the fillna documentation, https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>df_2019[<span class="st">&quot;Pos&quot;</span>] <span class="op">=</span> df_2021[<span class="st">&quot;Pos&quot;</span>].fillna(<span class="st">&quot;NA&quot;</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>df_2020[<span class="st">&quot;Pos&quot;</span>] <span class="op">=</span> df_2021[<span class="st">&quot;Pos&quot;</span>].fillna(<span class="st">&quot;NA&quot;</span>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>df_2021[<span class="st">&quot;Pos&quot;</span>] <span class="op">=</span> df_2021[<span class="st">&quot;Pos&quot;</span>].fillna(<span class="st">&quot;NA&quot;</span>)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="co">The rest of the columns containing null/missing values are float columns</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co">Because of this we can fill all remaining columns with the same values, which we will use 0.0</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="co">please see the fillna documentation, https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>df_2019.fillna(<span class="fl">0.0</span>, inplace<span class="op">=</span><span class="va">True</span>) <span class="co">#inplace will change the actual dataframe rather than return a copy</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>df_2020.fillna(<span class="fl">0.0</span>, inplace<span class="op">=</span><span class="va">True</span>) <span class="co">#inplace will change the actual dataframe rather than return a copy</span></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>df_2021.fillna(<span class="fl">0.0</span>, inplace<span class="op">=</span><span class="va">True</span>) <span class="co">#inplace will change the actual dataframe rather than return a copy</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>display(df_2021)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-fdad322b-981e-4514-beb4-634d89b8b844">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Player</th>
+      <th>Tm</th>
+      <th>Pos</th>
+      <th>Age</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>Tgt</th>
+      <th>Rec</th>
+      <th>PassingYds</th>
+      <th>PassingTD</th>
+      <th>PassingAtt</th>
+      <th>RushingYds</th>
+      <th>RushingTD</th>
+      <th>RushingAtt</th>
+      <th>ReceivingYds</th>
+      <th>ReceivingTD</th>
+      <th>FantasyPoints</th>
+      <th>Int</th>
+      <th>Fumbles</th>
+      <th>FumblesLost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jonathan Taylor</td>
+      <td>IND</td>
+      <td>RB</td>
+      <td>22</td>
+      <td>17</td>
+      <td>17</td>
+      <td>51.0</td>
+      <td>40.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1811.0</td>
+      <td>18.0</td>
+      <td>332.0</td>
+      <td>360.0</td>
+      <td>2.0</td>
+      <td>333.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Cooper Kupp</td>
+      <td>LAR</td>
+      <td>WR</td>
+      <td>28</td>
+      <td>17</td>
+      <td>17</td>
+      <td>191.0</td>
+      <td>145.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>18.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>1947.0</td>
+      <td>16.0</td>
+      <td>295.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Deebo Samuel</td>
+      <td>SFO</td>
+      <td>WR</td>
+      <td>25</td>
+      <td>16</td>
+      <td>15</td>
+      <td>121.0</td>
+      <td>77.0</td>
+      <td>24.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>365.0</td>
+      <td>8.0</td>
+      <td>59.0</td>
+      <td>1405.0</td>
+      <td>6.0</td>
+      <td>262.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Josh Allen</td>
+      <td>BUF</td>
+      <td>QB</td>
+      <td>25</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4407.0</td>
+      <td>36.0</td>
+      <td>646.0</td>
+      <td>763.0</td>
+      <td>6.0</td>
+      <td>122.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>403.0</td>
+      <td>15.0</td>
+      <td>8.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Austin Ekeler</td>
+      <td>LAC</td>
+      <td>RB</td>
+      <td>26</td>
+      <td>16</td>
+      <td>16</td>
+      <td>94.0</td>
+      <td>70.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>911.0</td>
+      <td>12.0</td>
+      <td>206.0</td>
+      <td>647.0</td>
+      <td>8.0</td>
+      <td>274.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>666</th>
+      <td>Travis Benjamin</td>
+      <td>SFO</td>
+      <td>NA</td>
+      <td>32</td>
+      <td>10</td>
+      <td>0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>667</th>
+      <td>Trenton Cannon</td>
+      <td>2TM</td>
+      <td>RB</td>
+      <td>27</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>0.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>668</th>
+      <td>John Wolford</td>
+      <td>LAR</td>
+      <td>QB</td>
+      <td>26</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>-1.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>669</th>
+      <td>Josh Rosen</td>
+      <td>ATL</td>
+      <td>QB</td>
+      <td>24</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>19.0</td>
+      <td>0.0</td>
+      <td>11.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-3.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>670</th>
+      <td>Diontae Spencer</td>
+      <td>DEN</td>
+      <td>WR</td>
+      <td>29</td>
+      <td>15</td>
+      <td>0</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-3.0</td>
+      <td>0.0</td>
+      <td>-4.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>671 rows × 20 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-fdad322b-981e-4514-beb4-634d89b8b844')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-fdad322b-981e-4514-beb4-634d89b8b844 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-fdad322b-981e-4514-beb4-634d89b8b844');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="8c8ff2bb" class="cell markdown" id="8c8ff2bb">
+<h4>Combining Data</h4>
+<p>Before we can start visualizing and analyzing the data as a whole, we
+must first combine the data into one table containing players and data
+from all 3 seasons. Doing this will allow us to run linear regressions
+and analysis easier, especially when looking at players over time. In
+this merged dataframe we will use a left join on 2021 players, and only
+include their fantasy points from 2019 and 2020. Once the merge is
+finished we will have a dataframe with player data from the 2021 season,
+including fantasy points from 2020 and 2019. To help aide this we will
+replace the "FantasyPoints" column with FP_YEAR, depending on the year.
+This will help display the fantasy points for specific years, so we can
+anlyze over time. Doing a left join will eliminate players that appear
+in 2020 and 2019 but not 2021 (i.e players who retired). This will give
+us a much more accurate depiction of player details heading into the
+2023 season.</p>
+</div>
+<div id="8883bd31" class="cell code" data-execution_count="78"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:653}"
+id="8883bd31" data-outputId="119ca344-560a-4d45-a858-004675540396">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Rename given columns for fantasy points per year</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>df_2019.rename(columns<span class="op">=</span> {<span class="st">&#39;FantasyPoints&#39;</span> : <span class="st">&#39;FP_2019&#39;</span>}, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>df_2020.rename(columns<span class="op">=</span> {<span class="st">&#39;FantasyPoints&#39;</span> : <span class="st">&#39;FP_2020&#39;</span>}, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>df_2021.rename(columns<span class="op">=</span> {<span class="st">&#39;FantasyPoints&#39;</span> : <span class="st">&#39;FP_2021&#39;</span>}, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co">#For more information on pandas merge, please visit https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Merge 2021 and 2020 on player name, using a left join</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>f_data <span class="op">=</span> pd.merge(df_2021, df_2020[[<span class="st">&quot;FP_2020&quot;</span>, <span class="st">&quot;Player&quot;</span>]], on<span class="op">=</span>[<span class="st">&quot;Player&quot;</span>], how<span class="op">=</span><span class="st">&quot;left&quot;</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Merge 2021 and 2020 data with 2019, using a left join on player name once again</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>f_data <span class="op">=</span> pd.merge(f_data, df_2019[[<span class="st">&quot;FP_2019&quot;</span>, <span class="st">&quot;Player&quot;</span>]], on<span class="op">=</span>[<span class="st">&quot;Player&quot;</span>], how<span class="op">=</span><span class="st">&quot;left&quot;</span>)</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>display(f_data)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-1d1fa12f-acc3-42be-9a3c-f79e4041abf4">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Player</th>
+      <th>Tm</th>
+      <th>Pos</th>
+      <th>Age</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>Tgt</th>
+      <th>Rec</th>
+      <th>PassingYds</th>
+      <th>PassingTD</th>
+      <th>...</th>
+      <th>RushingTD</th>
+      <th>RushingAtt</th>
+      <th>ReceivingYds</th>
+      <th>ReceivingTD</th>
+      <th>FP_2021</th>
+      <th>Int</th>
+      <th>Fumbles</th>
+      <th>FumblesLost</th>
+      <th>FP_2020</th>
+      <th>FP_2019</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jonathan Taylor</td>
+      <td>IND</td>
+      <td>RB</td>
+      <td>22</td>
+      <td>17</td>
+      <td>17</td>
+      <td>51.0</td>
+      <td>40.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>18.0</td>
+      <td>332.0</td>
+      <td>360.0</td>
+      <td>2.0</td>
+      <td>333.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+      <td>217.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Cooper Kupp</td>
+      <td>LAR</td>
+      <td>WR</td>
+      <td>28</td>
+      <td>17</td>
+      <td>17</td>
+      <td>191.0</td>
+      <td>145.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>1947.0</td>
+      <td>16.0</td>
+      <td>295.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>117.0</td>
+      <td>270.50</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Deebo Samuel</td>
+      <td>SFO</td>
+      <td>WR</td>
+      <td>25</td>
+      <td>16</td>
+      <td>15</td>
+      <td>121.0</td>
+      <td>77.0</td>
+      <td>24.0</td>
+      <td>1.0</td>
+      <td>...</td>
+      <td>8.0</td>
+      <td>59.0</td>
+      <td>1405.0</td>
+      <td>6.0</td>
+      <td>262.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+      <td>48.0</td>
+      <td>187.10</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Josh Allen</td>
+      <td>BUF</td>
+      <td>QB</td>
+      <td>25</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4407.0</td>
+      <td>36.0</td>
+      <td>...</td>
+      <td>6.0</td>
+      <td>122.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>403.0</td>
+      <td>15.0</td>
+      <td>8.0</td>
+      <td>3.0</td>
+      <td>395.0</td>
+      <td>282.56</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Austin Ekeler</td>
+      <td>LAC</td>
+      <td>RB</td>
+      <td>26</td>
+      <td>16</td>
+      <td>16</td>
+      <td>94.0</td>
+      <td>70.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>12.0</td>
+      <td>206.0</td>
+      <td>647.0</td>
+      <td>8.0</td>
+      <td>274.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>111.0</td>
+      <td>309.00</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>667</th>
+      <td>Travis Benjamin</td>
+      <td>SFO</td>
+      <td>NA</td>
+      <td>32</td>
+      <td>10</td>
+      <td>0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>9.00</td>
+    </tr>
+    <tr>
+      <th>668</th>
+      <td>Trenton Cannon</td>
+      <td>2TM</td>
+      <td>RB</td>
+      <td>27</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>3.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>5.0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>669</th>
+      <td>John Wolford</td>
+      <td>LAR</td>
+      <td>QB</td>
+      <td>26</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-2.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>13.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>670</th>
+      <td>Josh Rosen</td>
+      <td>ATL</td>
+      <td>QB</td>
+      <td>24</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>19.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-3.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>17.98</td>
+    </tr>
+    <tr>
+      <th>671</th>
+      <td>Diontae Spencer</td>
+      <td>DEN</td>
+      <td>WR</td>
+      <td>29</td>
+      <td>15</td>
+      <td>0</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-3.0</td>
+      <td>0.0</td>
+      <td>-4.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>11.0</td>
+      <td>7.70</td>
+    </tr>
+  </tbody>
+</table>
+<p>672 rows × 22 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1d1fa12f-acc3-42be-9a3c-f79e4041abf4')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-1d1fa12f-acc3-42be-9a3c-f79e4041abf4 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-1d1fa12f-acc3-42be-9a3c-f79e4041abf4');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="08124953" class="cell markdown" id="&quot;08124953&quot;">
+<h4>Notes about combined data:</h4>
+<p>We now have a merged dataset combining all players from 2021, their
+2021 statistics, along with their fantasy points from 2020 and 2019.
+However, we now have another issue! There are players in 2021 that
+either did not play in 2019 or 2020 (or both) and thus have no fantasy
+points for those years. For this part, we will keep these player's
+values as NaN for the sake of analyzing the data as a whole as filling
+in values would skew the data during analysis.</p>
+</div>
+<div id="5411e8a8" class="cell markdown" id="5411e8a8">
+<h3>Section 2: Exploratory Data Analysis</h3>
+<p>In this section we will do some exploratory data analysis in order to
+gain a better understanding of players over the past couple of years.
+This will help us answer questions such as the best performing players,
+best performing positions, and when combined, the best performing teams.
+This will aide in any linear regression and ML models used later on to
+pick the best players.</p>
+</div>
+<div id="vjC4l8xV6mhN" class="cell markdown" id="vjC4l8xV6mhN">
+<h4>Best Positions to Draft First</h4>
+<p>The first thing we'll want to look at is what positions will be the
+best to draft, or select, first. Drafting positions that yield higher
+points first could potentially earn us more points in the long run.
+Ultimately this will provide insight into the top position to select as
+the first couple picks in the draft should be high performers with high
+fantasy point yields. For this calculation we want to calculate the
+average per position of those that earned points, meaning we will
+exclude those that earned 0 fantasy points in a year. This approach
+provides a better outlook as to the average points expected per
+position. To do this we will replace zero values in the fantasy point
+columns with NaN and procede to calculate the mean. Mean ignores NaN
+values during calculation by default, see <a
+href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.mean.html"
+class="uri">https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.mean.html</a>
+for more details</p>
+</div>
+<div id="ba52092a" class="cell code" data-execution_count="79"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:235}"
+id="ba52092a" data-outputId="b8eaa0c7-20a4-41e7-fcd1-84de38f60a2c">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Replace values using pandas replace, we use nan from the numpy package</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>f_data[<span class="st">&quot;FP_2021&quot;</span>] <span class="op">=</span> f_data[<span class="st">&quot;FP_2021&quot;</span>].replace(<span class="dv">0</span>, np.nan)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>f_data[<span class="st">&quot;FP_2020&quot;</span>] <span class="op">=</span> f_data[<span class="st">&quot;FP_2020&quot;</span>].replace(<span class="dv">0</span>, np.nan)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>f_data[<span class="st">&quot;FP_2019&quot;</span>] <span class="op">=</span> f_data[<span class="st">&quot;FP_2019&quot;</span>].replace(<span class="dv">0</span>, np.nan)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>positional_groups <span class="op">=</span> f_data.groupby([<span class="st">&quot;Pos&quot;</span>])[[<span class="st">&quot;FP_2021&quot;</span>, <span class="st">&quot;FP_2020&quot;</span>, <span class="st">&quot;FP_2019&quot;</span>]].mean()</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>display(positional_groups)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-f887a2df-4204-4328-9439-7617b8a1842b">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>FP_2021</th>
+      <th>FP_2020</th>
+      <th>FP_2019</th>
+    </tr>
+    <tr>
+      <th>Pos</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>NA</th>
+      <td>2.000000</td>
+      <td>20.125000</td>
+      <td>38.102143</td>
+    </tr>
+    <tr>
+      <th>QB</th>
+      <td>119.545455</td>
+      <td>137.262295</td>
+      <td>149.703333</td>
+    </tr>
+    <tr>
+      <th>RB</th>
+      <td>61.214724</td>
+      <td>69.232000</td>
+      <td>104.333061</td>
+    </tr>
+    <tr>
+      <th>TE</th>
+      <td>35.313043</td>
+      <td>43.071429</td>
+      <td>64.129744</td>
+    </tr>
+    <tr>
+      <th>WR</th>
+      <td>53.333333</td>
+      <td>67.275449</td>
+      <td>104.484211</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-f887a2df-4204-4328-9439-7617b8a1842b')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-f887a2df-4204-4328-9439-7617b8a1842b button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-f887a2df-4204-4328-9439-7617b8a1842b');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="z4F6Qmvn-t-L" class="cell code" data-execution_count="80"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:600}"
+id="z4F6Qmvn-t-L" data-outputId="f1b5c8dc-42ec-410e-b5b5-dac997e3b8d4">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Visualize results</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>plt <span class="op">=</span> positional_groups.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, stacked<span class="op">=</span><span class="va">True</span>, figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">6</span>), color<span class="op">=</span>[<span class="st">&#39;steelblue&#39;</span>, <span class="st">&#39;red&#39;</span>, <span class="st">&#39;green&#39;</span>])</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Set axis labels</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>plt.set_xlabel(<span class="st">&quot;Position&quot;</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>plt.set_ylabel(<span class="st">&quot;Fantasy Points&quot;</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>plt.set_title(<span class="st">&quot;Fantasy Points By Position Over The Last Three Seasons&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="80">
+<pre><code>Text(0.5, 1.0, &#39;Fantasy Points By Position Over The Last Three Seasons&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/c16268cd14aabaa5085784100c3e7e3ce0761d1f.png" /></p>
+</div>
+</div>
+<div id="Io2HXtq3BdrG" class="cell markdown" id="Io2HXtq3BdrG">
+<h5>Analysis of Scoring Positions</h5>
+<p>As the graph shows a quarterback (denoted as QB) records, on average,
+the most points of any position in a given year. This seems to make
+sense as quarterbacks touch the ball every offensive play, and thus have
+a higher probability to score points on a given play. In contrast,
+running backs may only touch the ball every other play, with wide
+recievers or tight ends touching the ball on other plays. Skill
+positions (WR, RB, and TE) thus have a smaller chance to gain points and
+make plays throughout a game, leading to less points over a season.
+Typically NFL teams have 1 primary quarterback 2-4 running backs who get
+play time, and many different recievers.</p>
+</div>
+<div id="J6YqyHKEDEpQ" class="cell markdown" id="J6YqyHKEDEpQ">
+<h4>Analyzing The Top 50 Players</h4>
+<p>We will now look at the top 50 players and compare their positions
+and points over the past three seasons. This data in conjunction with
+data about the highest scoring positions will help inform us as to what
+positions we must target first, attempting to gain the highest possible
+point yield for 2023. We will do this by first sorting the players based
+on their points from 2019, 2020, and 2021, dealing with NaN values by
+putting them first ensuring that high scoring rookies (rookies have NaN
+values for seasons they did not play) are included in the analysis. We
+will then slice the table getting the top 50 fantasy performers over the
+last 3 seasons. Lastly we will plot the top 50 players by positional
+counts, i.e how many of the top 50 are QBs, RBs, etc. Sorting the values
+rather than computing a sum of points over the last 3 years per player
+will give us some valuble insights into top performers more recently.
+For example, Jonathan Taylor (a running back for Indianapolis) was a
+rookie in 2020 and thus didn't play in 2019, but had incredibly high
+points in 2020 and 20201. If we summed his points over the past three
+seasons and compared him, he would fall out of the top 50 players, which
+does not help our analysis. By sorting on descending years, we are able
+to get an accurate real time depiction of the hgihest scoring
+players.</p>
+</div>
+<div id="aFwDZNbHDrBL" class="cell code" data-execution_count="81"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:983}"
+id="aFwDZNbHDrBL" data-outputId="538d2de5-45f7-4ca7-c2d1-de77e74e2f65">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Sort the players on fantasy points over the past three seasons</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Ensure we compute based on descending</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co">#.head(50) simply gives us the first 50 values, at this point the top 50 performing players</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="bu">sorted</span> <span class="op">=</span> f_data.sort_values(by<span class="op">=</span>[<span class="st">&quot;FP_2021&quot;</span>, <span class="st">&quot;FP_2020&quot;</span>, <span class="st">&quot;FP_2019&quot;</span>], ascending<span class="op">=</span>[<span class="va">False</span>, <span class="va">False</span>, <span class="va">False</span>], na_position<span class="op">=</span><span class="st">&#39;last&#39;</span>).head(<span class="dv">50</span>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>display(<span class="bu">sorted</span>.head(<span class="dv">5</span>))</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Group by position</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>player_counts <span class="op">=</span> <span class="bu">sorted</span>.groupby(<span class="st">&quot;Pos&quot;</span>)[<span class="st">&quot;Player&quot;</span>].count()</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(player_counts)</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Create a pie chart to visualize</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>player_counts.plot.pie(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">6</span>))</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-54f9ce23-7ec0-4128-8873-84e72a136174">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Player</th>
+      <th>Tm</th>
+      <th>Pos</th>
+      <th>Age</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>Tgt</th>
+      <th>Rec</th>
+      <th>PassingYds</th>
+      <th>PassingTD</th>
+      <th>...</th>
+      <th>RushingTD</th>
+      <th>RushingAtt</th>
+      <th>ReceivingYds</th>
+      <th>ReceivingTD</th>
+      <th>FP_2021</th>
+      <th>Int</th>
+      <th>Fumbles</th>
+      <th>FumblesLost</th>
+      <th>FP_2020</th>
+      <th>FP_2019</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>Josh Allen</td>
+      <td>BUF</td>
+      <td>QB</td>
+      <td>25</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4407.0</td>
+      <td>36.0</td>
+      <td>...</td>
+      <td>6.0</td>
+      <td>122.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>403.0</td>
+      <td>15.0</td>
+      <td>8.0</td>
+      <td>3.0</td>
+      <td>395.0</td>
+      <td>282.56</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Justin Herbert</td>
+      <td>LAC</td>
+      <td>QB</td>
+      <td>23</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>5014.0</td>
+      <td>38.0</td>
+      <td>...</td>
+      <td>3.0</td>
+      <td>63.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>381.0</td>
+      <td>15.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>333.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Tom Brady</td>
+      <td>TAM</td>
+      <td>QB</td>
+      <td>44</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>5316.0</td>
+      <td>43.0</td>
+      <td>...</td>
+      <td>2.0</td>
+      <td>28.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>375.0</td>
+      <td>12.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>338.0</td>
+      <td>261.68</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Patrick Mahomes</td>
+      <td>KAN</td>
+      <td>QB</td>
+      <td>26</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4839.0</td>
+      <td>37.0</td>
+      <td>...</td>
+      <td>2.0</td>
+      <td>66.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>362.0</td>
+      <td>13.0</td>
+      <td>9.0</td>
+      <td>4.0</td>
+      <td>374.0</td>
+      <td>285.04</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Jonathan Taylor</td>
+      <td>IND</td>
+      <td>RB</td>
+      <td>22</td>
+      <td>17</td>
+      <td>17</td>
+      <td>51.0</td>
+      <td>40.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>18.0</td>
+      <td>332.0</td>
+      <td>360.0</td>
+      <td>2.0</td>
+      <td>333.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+      <td>217.0</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 22 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-54f9ce23-7ec0-4128-8873-84e72a136174')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-54f9ce23-7ec0-4128-8873-84e72a136174 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-54f9ce23-7ec0-4128-8873-84e72a136174');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output stream stdout">
+<pre><code>Pos
+QB    26
+RB    15
+TE     1
+WR     8
+Name: Player, dtype: int64
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="81">
+<pre><code>&lt;Axes: ylabel=&#39;Player&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/92679a077fb86515c89676e90a916173e877b29e.png" /></p>
+</div>
+</div>
+<div id="djickoBOKj_0" class="cell markdown" id="djickoBOKj_0">
+<h5>Top 50 Players Analysis</h5>
+<p>The graph and informtation above shows some interesting results.
+First of all, we see that quarterbacks dominate the top 50 spots, with
+26 total quarterbacks in the top 50 fantasy performers over the last 3
+seasons. We also see that there is only 1 tight end in the top 50
+players, indicating that tight ends aren't generally high point
+providers. We also see that there are only 8 wide recievers and 15
+running backs. So how do we analyze this data and what use does it
+provide us?</p>
+<p>As the data, and visualization suggest, it is harder to draft a high
+performing running back or wide reciever. Fantasy leagues usually
+contain 6-12 teams, so even if every person took two quarterbacks in the
+top 50, each person would have two top 50 performers on their team. This
+makes it less important to draft a quarterback in the early rounds since
+good, high performing quarterbacks will generally always be available.
+However, when we look at running backs and wide recievers this does not
+tend to be the case. These two positions are much harder to fill with
+elite talent since there are less of these positions in the top 50 of
+fantasy point performers. This makes it imperative to select a WR and RB
+in the lower rounds of the draft since elite, high performing, talent
+will likely not be available in higher rounds. For example, lets take a
+fantasy league of 12 players. Assuming everyone in the league selects a
+RB and a WR in the first two rounds (which tends to be the case in my
+many fantasy losses) that yields 24 total players taken, there are only
+23 total WR and RB in the top 50 fantasy performers. This means one
+person has been forced to take a WR or RB that is not in the top 50
+players. This data also shows that tight ends are generally low
+performers, meaning it is less important to select a tight end in the
+early rounds as comparable tight ends should be available in the later
+rounds. This also means that it will be harder to target a tight end in
+the early rounds. For example, if I pick second, and the person ahead of
+me selects the top tight end and I then proceed to take a tight end,
+i've missed out on a top 50 performer as my first pick.</p>
+<p>All of this being said, when making early fantasy picks in 2023, we
+should target WR and RB as there are fewer players in those positions
+that yield high fantasy point output, but are still viable targets that
+should be available when it is our turn to pick a player.</p>
+</div>
+<div id="2_rjKpony-dj" class="cell markdown" id="2_rjKpony-dj">
+<p>First Round: RB or WR?</p>
+<p>As we now know, a RB or WR should be drafted early, since there are
+few high performing RB's and WR's as opposed to the multitude of elite
+QB's. Seeing as this is the case, the question arises: should we draft a
+RB or WR in the first round? Or rather, does it not matter whether we
+draft a RB or WR early? Let's see if there is a substantial
+difference</p>
+</div>
+<div id="v5jzq4V-1ch0" class="cell code" data-execution_count="82"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:458}"
+id="v5jzq4V-1ch0" data-outputId="6371f368-49da-4670-ca2b-9230c9543c0c">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating scatter plot</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> f_data.plot.scatter(x<span class="op">=</span><span class="st">&#39;Pos&#39;</span>, y<span class="op">=</span><span class="st">&#39;FP_2021&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/0d6cd432049be54f82d3f9a967d66296cce338d6.png" /></p>
+</div>
+</div>
+<div id="nLTZEacLYGpn" class="cell markdown" id="nLTZEacLYGpn">
+<p>Scatter plot of Fanatasy Points in 2021 versus position. As we can
+see, the points are clustered together making the data hard to
+visualize. Let's try turning this into a violin plot.</p>
+</div>
+<div id="CaLNwWh_QJwx" class="cell code" data-execution_count="83"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:475}"
+id="CaLNwWh_QJwx" data-outputId="7eccb5c3-2dcd-49c4-e105-0bb2737bdb7e">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Violin Plot</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>seaborn.<span class="bu">set</span>(style <span class="op">=</span> <span class="st">&#39;whitegrid&#39;</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>seaborn.violinplot(x <span class="op">=</span><span class="st">&quot;Pos&quot;</span>,</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>             y <span class="op">=</span><span class="st">&quot;FP_2019&quot;</span>,</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>             data <span class="op">=</span> f_data)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="83">
+<pre><code>&lt;Axes: xlabel=&#39;Pos&#39;, ylabel=&#39;FP_2019&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/a411abd78f05851a0a9e27f9976bdb740f947652.png" /></p>
+</div>
+</div>
+<div id="ej6n2HwXurXi" class="cell markdown" id="ej6n2HwXurXi">
+<p>Distribution of fantasy points scored in 2019 for each position. As
+we can see, the top running backs in 2019 scored better than the wide
+receivers. However, the median and lower/upper quartile of wide
+receivers was higher for wide recievers than running backs. Let's see if
+this holds true for 2020 and 2021.</p>
+</div>
+<div id="6wMQBHAQQGNy" class="cell code" data-execution_count="84"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:475}"
+id="6wMQBHAQQGNy" data-outputId="9c05705b-4601-4ebb-f1cd-1ba9470d4c4a">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Violin Plot</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>seaborn.<span class="bu">set</span>(style <span class="op">=</span> <span class="st">&#39;whitegrid&#39;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>seaborn.violinplot(x <span class="op">=</span><span class="st">&quot;Pos&quot;</span>,</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>             y <span class="op">=</span><span class="st">&quot;FP_2020&quot;</span>,</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>             data <span class="op">=</span> f_data)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="84">
+<pre><code>&lt;Axes: xlabel=&#39;Pos&#39;, ylabel=&#39;FP_2020&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/bb3ab6f1304722a2cc712cf1aee7e388c6c91836.png" /></p>
+</div>
+</div>
+<div id="hVpZEOeDu3_C" class="cell markdown" id="hVpZEOeDu3_C">
+<p>Distribution of fantasy points scored in 2020 for each position. Once
+again, the top running backs in 2020 outperformed the top wide
+recievers. However, the median for points scored was higher for wide
+receivers, with similar upper and lower quartiles.</p>
+</div>
+<div id="laAn-GXQLYuD" class="cell code" data-execution_count="85"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:475}"
+id="laAn-GXQLYuD" data-outputId="3d7312b7-a3cb-4380-d604-f5ce54288249">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Violin Plot</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>seaborn.<span class="bu">set</span>(style <span class="op">=</span> <span class="st">&#39;whitegrid&#39;</span>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>seaborn.violinplot(x <span class="op">=</span><span class="st">&quot;Pos&quot;</span>,</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>             y <span class="op">=</span><span class="st">&quot;FP_2021&quot;</span>,</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>             data <span class="op">=</span> f_data)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="85">
+<pre><code>&lt;Axes: xlabel=&#39;Pos&#39;, ylabel=&#39;FP_2021&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/1907d6acb6e1d11f367be6f1b48b394996d93d27.png" /></p>
+</div>
+</div>
+<div id="JrTkUUGzu6a1" class="cell markdown" id="JrTkUUGzu6a1">
+<p>Distribution of fantasy points scored in 2021 for each position.
+Note, the violin plots seem "skinnier" than past years since there is
+less available data for recent years. Nevertheless, in 2021 it once
+again holds true that the top running backs outperformed the top wide
+recievers. However, wide receivers in 2021 had a higher median and
+upper/lower quartile of points.</p>
+</div>
+<div id="RvBTkM1iMcFa" class="cell markdown" id="RvBTkM1iMcFa">
+<p>By inspection, RB's and WR's have similar means (WR's tend to have
+the higher mean), but RB's seem to have a higher ceiling. However, this
+is not clear-cut enough to make a decision on RB's vs. WR's. As we can
+see, RB's and WR's have similar distributions in points, so a better way
+to make our decision could be to see which position is more reliable.
+From our above plots, we can hypothesize that WR's are more reliable,
+while RB's have a higher ceiling. We will attempt to prove this in the
+following section.</p>
+</div>
+<div id="6zrJHU1E89AJ" class="cell markdown" id="6zrJHU1E89AJ">
+<h3>Section 3: Linear Regressions and Future Predictions</h3>
+<p>As we can see from section 2, our best picks in the early rounds of
+the draft are going to be running backs and wide recievers, primarily
+due to the fact that it is harder to find elite talent at those two
+positions than it is for quarterbacks. In this section, we will analyze
+these trends and attempt to fit linear regression models to both
+positions based on information such as targets, yards, catches, rushing
+yards, and touchdowns to see what players will be the best at both
+positions. This will give us more insight as to which specific players
+we may want to target in the early rounds of our draft. As mentioned in
+the opening description of the project, we will focus the analysis on
+the early rounds of the draft as it is more predictable.</p>
+</div>
+<div id="4gYyrlS---bA" class="cell markdown" id="4gYyrlS---bA">
+<h4>Running Back Regression Analysis</h4>
+<p>We will start analyzing the running backs based on data from 2021 as
+it has the most complete data with all players. Doing a regression over
+the past three seasons for all players would hinder our analysis as
+there are many players who weren't drafted until 2021, meaning they do
+not have data for 2020 and 2019. Analyzing direct data from 2021 will
+allow us to see the most relevant and statistically accurate data
+opposed to analyzing all players over the course of 3 seasons. This
+being said, we can run statistical analysis on individual players over
+the past 3 seasons to see trends, for example, if they have been in a
+steady decline or incline of points.</p>
+</div>
+<div id="g8-wuUbJ_Kvk" class="cell code" data-execution_count="86"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:353}"
+id="g8-wuUbJ_Kvk" data-outputId="c67017d9-2fae-4a97-e711-f9b0a4c4d288">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#First get all the running backs from the 2021 season</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co">#We want to make a deep copy here to ensure that the original dataframe remains the same for analysis purposes</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>df_2021_rb <span class="op">=</span> df_2021.copy(deep<span class="op">=</span><span class="va">True</span>) </span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>df_2021_rb <span class="op">=</span> df_2021_rb.loc[df_2021_rb[<span class="st">&quot;Pos&quot;</span>] <span class="op">==</span> <span class="st">&#39;RB&#39;</span>]</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>display(df_2021_rb.head(<span class="dv">5</span>))</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-3bcd7b2d-573b-4d79-bb1e-4e71c0b49dc6">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Player</th>
+      <th>Tm</th>
+      <th>Pos</th>
+      <th>Age</th>
+      <th>G</th>
+      <th>GS</th>
+      <th>Tgt</th>
+      <th>Rec</th>
+      <th>PassingYds</th>
+      <th>PassingTD</th>
+      <th>PassingAtt</th>
+      <th>RushingYds</th>
+      <th>RushingTD</th>
+      <th>RushingAtt</th>
+      <th>ReceivingYds</th>
+      <th>ReceivingTD</th>
+      <th>FP_2021</th>
+      <th>Int</th>
+      <th>Fumbles</th>
+      <th>FumblesLost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jonathan Taylor</td>
+      <td>IND</td>
+      <td>RB</td>
+      <td>22</td>
+      <td>17</td>
+      <td>17</td>
+      <td>51.0</td>
+      <td>40.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1811.0</td>
+      <td>18.0</td>
+      <td>332.0</td>
+      <td>360.0</td>
+      <td>2.0</td>
+      <td>333.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Austin Ekeler</td>
+      <td>LAC</td>
+      <td>RB</td>
+      <td>26</td>
+      <td>16</td>
+      <td>16</td>
+      <td>94.0</td>
+      <td>70.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>911.0</td>
+      <td>12.0</td>
+      <td>206.0</td>
+      <td>647.0</td>
+      <td>8.0</td>
+      <td>274.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Joe Mixon</td>
+      <td>CIN</td>
+      <td>RB</td>
+      <td>25</td>
+      <td>16</td>
+      <td>16</td>
+      <td>48.0</td>
+      <td>42.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1205.0</td>
+      <td>13.0</td>
+      <td>292.0</td>
+      <td>314.0</td>
+      <td>3.0</td>
+      <td>246.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Najee Harris</td>
+      <td>PIT</td>
+      <td>RB</td>
+      <td>23</td>
+      <td>17</td>
+      <td>17</td>
+      <td>94.0</td>
+      <td>74.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1200.0</td>
+      <td>7.0</td>
+      <td>307.0</td>
+      <td>467.0</td>
+      <td>3.0</td>
+      <td>227.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>James Conner</td>
+      <td>ARI</td>
+      <td>RB</td>
+      <td>26</td>
+      <td>15</td>
+      <td>6</td>
+      <td>39.0</td>
+      <td>37.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>752.0</td>
+      <td>15.0</td>
+      <td>202.0</td>
+      <td>375.0</td>
+      <td>3.0</td>
+      <td>221.0</td>
+      <td>0.0</td>
+      <td>2.0</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-3bcd7b2d-573b-4d79-bb1e-4e71c0b49dc6')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-3bcd7b2d-573b-4d79-bb1e-4e71c0b49dc6 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-3bcd7b2d-573b-4d79-bb1e-4e71c0b49dc6');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div id="AIujsSjvH2fM" class="cell code" data-execution_count="87"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:0}"
+id="AIujsSjvH2fM" data-outputId="20f15afb-a238-451e-d13d-9ac64548617a">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Create a linear regression model based on rushing yards and recieving yards </span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>reg_model_yds <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&quot;FP_2021 ~ RushingYds + ReceivingYds&quot;</span>, data<span class="op">=</span>df_2021_rb[[<span class="st">&quot;FP_2021&quot;</span>, <span class="st">&quot;RushingYds&quot;</span>, <span class="st">&quot;ReceivingYds&quot;</span>]]).fit()</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Create a linear regression model based on rushing td and receiving yards</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>reg_model_tds <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&quot;FP_2021 ~ RushingTD + ReceivingTD&quot;</span>, data<span class="op">=</span>df_2021_rb[[<span class="st">&quot;FP_2021&quot;</span>, <span class="st">&quot;RushingTD&quot;</span>, <span class="st">&quot;ReceivingTD&quot;</span>]]).fit()</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>df_2021_rb[<span class="st">&quot;predicted_points_yds&quot;</span>] <span class="op">=</span> reg_model_yds.predict(df_2021_rb[[<span class="st">&quot;RushingYds&quot;</span>, <span class="st">&quot;ReceivingYds&quot;</span>]])</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>df_2021_rb[<span class="st">&quot;predicted_points_tds&quot;</span>] <span class="op">=</span> reg_model_tds.predict(df_2021_rb[[<span class="st">&quot;RushingTD&quot;</span>, <span class="st">&quot;ReceivingTD&quot;</span>]])</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="co">#Display the statistics</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(reg_model_yds.summary())</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(reg_model_tds.summary())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                FP_2021   R-squared:                       0.970
+Model:                            OLS   Adj. R-squared:                  0.969
+Method:                 Least Squares   F-statistic:                     2641.
+Date:                Fri, 12 May 2023   Prob (F-statistic):          5.12e-126
+Time:                        01:37:39   Log-Likelihood:                -648.74
+No. Observations:                 168   AIC:                             1303.
+Df Residuals:                     165   BIC:                             1313.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P&gt;|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept       -1.5935      1.242     -1.283      0.201      -4.046       0.859
+RushingYds       0.1446      0.004     40.112      0.000       0.137       0.152
+ReceivingYds     0.1439      0.009     15.759      0.000       0.126       0.162
+==============================================================================
+Omnibus:                       60.911   Durbin-Watson:                   1.621
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              366.795
+Skew:                           1.165   Prob(JB):                     2.25e-80
+Kurtosis:                       9.854   Cond. No.                         670.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                FP_2021   R-squared:                       0.891
+Model:                            OLS   Adj. R-squared:                  0.890
+Method:                 Least Squares   F-statistic:                     677.1
+Date:                Fri, 12 May 2023   Prob (F-statistic):           2.87e-80
+Time:                        01:37:39   Log-Likelihood:                -756.00
+No. Observations:                 168   AIC:                             1518.
+Df Residuals:                     165   BIC:                             1527.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P&gt;|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept      12.9349      2.116      6.114      0.000       8.758      17.112
+RushingTD      15.9403      0.587     27.148      0.000      14.781      17.100
+ReceivingTD    15.7427      1.560     10.090      0.000      12.662      18.823
+==============================================================================
+Omnibus:                       26.031   Durbin-Watson:                   1.520
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               56.868
+Skew:                           0.679   Prob(JB):                     4.48e-13
+Kurtosis:                       5.506   Cond. No.                         5.22
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+</code></pre>
+</div>
+</div>
+<div id="W8Y9b4g3lrmL" class="cell code" data-execution_count="91"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:558}"
+id="W8Y9b4g3lrmL" data-outputId="10382293-3087-48e4-83fb-eaa4f53f648f">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot the display for yds model</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> sm.graphics.plot_partregress_grid(reg_model_yds)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>fig.tight_layout(pad<span class="op">=</span><span class="fl">1.0</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>eval_env: 1
+eval_env: 1
+eval_env: 1
+</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1500x1500 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/c565e492b98005cfa3b3bce90a3afb57c21e7df0.png" /></p>
+</div>
+</div>
+<div id="eNR28-Rlli3V" class="cell code" data-execution_count="92"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:558}"
+id="eNR28-Rlli3V" data-outputId="06932878-1a9a-4ca6-9f6e-1f13eab0861b">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot the display for tds model</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> sm.graphics.plot_partregress_grid(reg_model_tds)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>fig.tight_layout(pad<span class="op">=</span><span class="fl">1.0</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>eval_env: 1
+eval_env: 1
+eval_env: 1
+</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1500x1500 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/2f0a3a0ea752d34d5473f5841cbcc60ffddf256f.png" /></p>
+</div>
+</div>
+<div id="o5NupGFjKfas" class="cell code" data-execution_count="93"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:658}"
+id="o5NupGFjKfas" data-outputId="efa76601-21ac-4d9b-ca82-392a98078a46">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot the data accordingly for a visual representation</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">10</span>))</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Sort the top 15 of points based on predicted points relating to yards</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>sorted_rb_yards <span class="op">=</span> df_2021_rb.sort_values(by<span class="op">=</span>[<span class="st">&quot;predicted_points_yds&quot;</span>], ascending<span class="op">=</span>[<span class="va">False</span>], na_position<span class="op">=</span><span class="st">&#39;last&#39;</span>).head(<span class="dv">15</span>)</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>sorted_rb_yards.plot(kind<span class="op">=</span><span class="st">&quot;scatter&quot;</span>, x<span class="op">=</span><span class="st">&quot;Player&quot;</span>, y<span class="op">=</span><span class="st">&quot;predicted_points_yds&quot;</span>, label<span class="op">=</span><span class="st">&quot;Player&quot;</span>, ax<span class="op">=</span>ax)</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a><span class="co">#Set xticks so they are scattered</span></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>ax.set_xticklabels([<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">*</span>(i<span class="op">%</span><span class="dv">2</span>) <span class="op">+</span> l <span class="cf">for</span> i,l <span class="kw">in</span> <span class="bu">enumerate</span>(sorted_rb_yards[<span class="st">&quot;Player&quot;</span>])])</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-93-00c5f85b2e4f&gt;:11: UserWarning: FixedFormatter should only be used together with FixedLocator
+  ax.set_xticklabels([&quot;\n&quot;*(i%2) + l for i,l in enumerate(sorted_rb_yards[&quot;Player&quot;])])
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/f1b82251bad8b777e67cf7cb74e83f8e2043ca04.png" /></p>
+</div>
+</div>
+<div id="NjO0sICJNlOn" class="cell code" data-execution_count="94"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:659}"
+id="NjO0sICJNlOn" data-outputId="033b88bd-bc6c-485b-b3fc-813d135b3164">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot the data accordingly for a visual representation</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">10</span>))</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Sort the top 15 of points based on predicted points relating to yards</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>sorted_rb_tds <span class="op">=</span> df_2021_rb.sort_values(by<span class="op">=</span>[<span class="st">&quot;predicted_points_tds&quot;</span>], ascending<span class="op">=</span>[<span class="va">False</span>], na_position<span class="op">=</span><span class="st">&#39;last&#39;</span>).head(<span class="dv">15</span>)</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>sorted_rb_tds.plot(kind<span class="op">=</span><span class="st">&quot;scatter&quot;</span>, x<span class="op">=</span><span class="st">&quot;Player&quot;</span>, y<span class="op">=</span><span class="st">&quot;predicted_points_tds&quot;</span>, label<span class="op">=</span><span class="st">&quot;Player&quot;</span>, ax<span class="op">=</span>ax)</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a><span class="co">#Set xticks so they are scattered</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>ax.set_xticklabels([<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">*</span>(i<span class="op">%</span><span class="dv">2</span>) <span class="op">+</span> l <span class="cf">for</span> i,l <span class="kw">in</span> <span class="bu">enumerate</span>(sorted_rb_tds[<span class="st">&quot;Player&quot;</span>])])</span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-94-1a49f789acc0&gt;:11: UserWarning: FixedFormatter should only be used together with FixedLocator
+  ax.set_xticklabels([&quot;\n&quot;*(i%2) + l for i,l in enumerate(sorted_rb_tds[&quot;Player&quot;])])
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/ceb8f1efbf458db730550ca57b9fc7d6667da0fb.png" /></p>
+</div>
+</div>
+<div id="WDIMMWir0WfH" class="cell markdown" id="WDIMMWir0WfH">
+<h4>Running Back Analysis</h4>
+<p>The results found above are fairly substantial, and definitely seem
+cause for analysis. It is obvious that there is a clear cut winner when
+it comes to running backs, Jonathan Taylor. Taylor has the highest
+predicted points based on rushing yards and touchdowns. However, the
+rest of the running backs are quite interesting. As we can see, Najee
+Harris ranks second in predicted points based on rushing yards, but
+finishes almost last in terms of predicted points from touchdowns. This
+suggests that Harris is a workhorse all over the field, but is rarely
+utilized in the red zone (final 20 yards until the touchdown, and
+highest percentage of a endzone). We can see that James Conner is
+predicted with high points in terms of touchdowns, but doesn't even fall
+in the top 15 for predicted points with respect to rushing yards. This
+distinction happens across the board as it appears some players get more
+rushing yards with lower touchdowns, and some players get more
+touchdowns but lower rushing yards. Because of this, we want to find a
+medium where we get high points from touchdowns and high points from
+rushing yards.</p>
+</div>
+<div id="GSp4Ik-F2S4o" class="cell markdown" id="GSp4Ik-F2S4o">
+<h4>Total Running Back Analysis</h4>
+<p>We will now combine the linear regression models to get a more
+accurate picture of how running backs compare to eachother, and how they
+are predicted to perform in the 2023 season.</p>
+</div>
+<div id="a09SM1YM2hac" class="cell code" data-execution_count="95"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:895}"
+id="a09SM1YM2hac" data-outputId="9bc82f73-8d0d-4905-d35b-34d1116f180a">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Combine all independent fields into one model</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>reg_model_rb_total <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&quot;FP_2021 ~ RushingYds + ReceivingYds + RushingTD + ReceivingTD&quot;</span>, data<span class="op">=</span>df_2021_rb[[<span class="st">&quot;FP_2021&quot;</span>, <span class="st">&quot;RushingYds&quot;</span>, <span class="st">&quot;ReceivingYds&quot;</span>, <span class="st">&quot;RushingTD&quot;</span>, <span class="st">&quot;ReceivingTD&quot;</span>]]).fit()</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>df_2021_rb[<span class="st">&quot;predicted_points_all&quot;</span>] <span class="op">=</span> reg_model_yds.predict(df_2021_rb[[<span class="st">&quot;RushingYds&quot;</span>, <span class="st">&quot;ReceivingYds&quot;</span>, <span class="st">&quot;RushingTD&quot;</span>, <span class="st">&quot;ReceivingTD&quot;</span>]])</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>display(df_2021_rb[[<span class="st">&quot;Player&quot;</span>, <span class="st">&quot;predicted_points_all&quot;</span>]])</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(reg_model_rb_total.summary())</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-2ef14bbb-f5e0-4e4a-8f9f-5411797581b5">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Player</th>
+      <th>predicted_points_all</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jonathan Taylor</td>
+      <td>312.054994</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Austin Ekeler</td>
+      <td>223.248400</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Joe Mixon</td>
+      <td>217.820105</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Najee Harris</td>
+      <td>239.120863</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>James Conner</td>
+      <td>161.107586</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>594</th>
+      <td>Nathan Cottrell</td>
+      <td>-1.159778</td>
+    </tr>
+    <tr>
+      <th>628</th>
+      <td>Nate McCrary</td>
+      <td>-1.738085</td>
+    </tr>
+    <tr>
+      <th>634</th>
+      <td>Devine Ozigbo</td>
+      <td>-1.019620</td>
+    </tr>
+    <tr>
+      <th>660</th>
+      <td>Khari Blasingame</td>
+      <td>-0.150267</td>
+    </tr>
+    <tr>
+      <th>667</th>
+      <td>Trenton Cannon</td>
+      <td>-1.015202</td>
+    </tr>
+  </tbody>
+</table>
+<p>168 rows × 2 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-2ef14bbb-f5e0-4e4a-8f9f-5411797581b5')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-2ef14bbb-f5e0-4e4a-8f9f-5411797581b5 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-2ef14bbb-f5e0-4e4a-8f9f-5411797581b5');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output stream stdout">
+<pre><code>                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                FP_2021   R-squared:                       0.999
+Model:                            OLS   Adj. R-squared:                  0.999
+Method:                 Least Squares   F-statistic:                 4.973e+04
+Date:                Fri, 12 May 2023   Prob (F-statistic):          2.19e-250
+Time:                        01:38:17   Log-Likelihood:                -345.44
+No. Observations:                 168   AIC:                             700.9
+Df Residuals:                     163   BIC:                             716.5
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P&gt;|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.1009      0.207      0.487      0.627      -0.308       0.510
+RushingYds       0.0985      0.001    106.188      0.000       0.097       0.100
+ReceivingYds     0.1008      0.002     52.385      0.000       0.097       0.105
+RushingTD        5.9534      0.090     66.277      0.000       5.776       6.131
+ReceivingTD      5.9488      0.178     33.502      0.000       5.598       6.299
+==============================================================================
+Omnibus:                      104.895   Durbin-Watson:                   2.217
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1119.755
+Skew:                           2.065   Prob(JB):                    7.05e-244
+Kurtosis:                      14.954   Cond. No.                         684.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+</code></pre>
+</div>
+</div>
+<div id="xSVPFfTimNUN" class="cell code" data-execution_count="96"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:592}"
+id="xSVPFfTimNUN" data-outputId="3c9d4efe-e0df-4b70-df78-b6d6cdfc13a4">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plot the linear regression statistics</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> sm.graphics.plot_partregress_grid(reg_model_rb_total)</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>fig.tight_layout(pad<span class="op">=</span><span class="fl">1.0</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1500x1500 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/544d3cf5e20257847730195328c5290b46d63ee3.png" /></p>
+</div>
+</div>
+<div id="7PhU3--G3Ydy" class="cell code" data-execution_count="97"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:658}"
+id="7PhU3--G3Ydy" data-outputId="ff7105cb-6a8a-40f7-a614-e2269518ba61">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">10</span>))</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Sort the top 15 of points based on predicted points relating to yards</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>sorted_rb_tds <span class="op">=</span> df_2021_rb.sort_values(by<span class="op">=</span>[<span class="st">&quot;predicted_points_all&quot;</span>], ascending<span class="op">=</span>[<span class="va">False</span>], na_position<span class="op">=</span><span class="st">&#39;last&#39;</span>).head(<span class="dv">15</span>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>sorted_rb_tds.plot(kind<span class="op">=</span><span class="st">&quot;scatter&quot;</span>, x<span class="op">=</span><span class="st">&quot;Player&quot;</span>, y<span class="op">=</span><span class="st">&quot;predicted_points_all&quot;</span>, label<span class="op">=</span><span class="st">&quot;Player&quot;</span>, ax<span class="op">=</span>ax)</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="co">#Set xticks so they are scattered</span></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>ax.set_xticklabels([<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">*</span>(i<span class="op">%</span><span class="dv">2</span>) <span class="op">+</span> l <span class="cf">for</span> i,l <span class="kw">in</span> <span class="bu">enumerate</span>(sorted_rb_tds[<span class="st">&quot;Player&quot;</span>])])</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-97-a7eaead9045c&gt;:9: UserWarning: FixedFormatter should only be used together with FixedLocator
+  ax.set_xticklabels([&quot;\n&quot;*(i%2) + l for i,l in enumerate(sorted_rb_tds[&quot;Player&quot;])])
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/c8b21a7a19eab57f882fae1f70701d9515eab655.png" /></p>
+</div>
+</div>
+<div id="2zIpS1Dh3jgE" class="cell markdown" id="2zIpS1Dh3jgE">
+<h4>Best Running Backs to Select</h4>
+<p>From the scatter plot above it is evident that Jonathan Taylor is by
+far the best running back to select going into the 2023 season, with
+Najee Harris, Austin Ekeler, Joe Mixon, and Nick Chubb rounding out the
+top 5. It is important to note here that James Conner is not in the top
+15 here, primarily due to his lack of rushing yards, although he's
+predicted to get a large amount of points from touchdowns. This being
+said, it would be unwise to select a player like Conner early because of
+his total lack of production even given his high points from touchdowns.
+For our early predictions we want well rounded players who can earn us
+points through touchdowns and rushing/receiving yards, and thus would
+target these top 5 running backs.</p>
+</div>
+<div id="mfiH3lb15WcO" class="cell markdown" id="mfiH3lb15WcO">
+<h4>Wide Reciever Regression Analysis</h4>
+<p>We now want to move onto wide recievers to see how they compare to
+one another, and how they compare to the running backs. Due to the
+nature of wide recievers, we will not include rushing yards in their
+regression analysis as wide recievers rarely rush in the NFL and are
+rather utilized in sweep playd that garner low yardage. However, we will
+include rushing touchdowns as rushing touchdowns account for a lot of
+points and are more prevelant than rushes for yards (for wide
+recievers).</p>
+</div>
+<div id="zCb0aH8A6dVB" class="cell code" data-execution_count="98"
+id="zCb0aH8A6dVB">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co">#First get all the running backs from the 2021 season</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Again we make a deep copy to ensure original data remains the same</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>df_2021_wr <span class="op">=</span> df_2021.copy(deep<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>df_2021_wr <span class="op">=</span> df_2021_wr.loc[df_2021_wr[<span class="st">&quot;Pos&quot;</span>] <span class="op">==</span> <span class="st">&#39;WR&#39;</span>]</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Create a linear regression model based on rushing yards and recieving yards </span></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>reg_model_wr <span class="op">=</span> smf.ols(formula<span class="op">=</span><span class="st">&quot;FP_2021 ~ ReceivingYds + ReceivingTD + RushingTD&quot;</span>, data<span class="op">=</span>df_2021_wr[[<span class="st">&quot;FP_2021&quot;</span>, <span class="st">&quot;ReceivingTD&quot;</span>, <span class="st">&quot;ReceivingYds&quot;</span>, <span class="st">&quot;RushingTD&quot;</span>]]).fit()</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>df_2021_wr[<span class="st">&quot;predicted_points_all&quot;</span>] <span class="op">=</span> reg_model_wr.predict(df_2021_wr[[<span class="st">&quot;RushingTD&quot;</span>, <span class="st">&quot;ReceivingYds&quot;</span>, <span class="st">&quot;ReceivingTD&quot;</span>]])</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>sorted_wr <span class="op">=</span> df_2021_wr.sort_values(by<span class="op">=</span>[<span class="st">&quot;predicted_points_all&quot;</span>], ascending<span class="op">=</span>[<span class="va">False</span>], na_position<span class="op">=</span><span class="st">&#39;last&#39;</span>).head(<span class="dv">8</span>)</span></code></pre></div>
+</div>
+<div id="a8lIrj6ommB8" class="cell code" data-execution_count="99"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:575}"
+id="a8lIrj6ommB8" data-outputId="72751361-02d8-4195-d5eb-8a5e4da2d0ac">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plot wr statistics</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> sm.graphics.plot_partregress_grid(reg_model_wr)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>fig.tight_layout(pad<span class="op">=</span><span class="fl">1.0</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>eval_env: 1
+eval_env: 1
+eval_env: 1
+eval_env: 1
+</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1500x1500 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/dfbc801860fcfa1c9a9c44931eb027df866f7972.png" /></p>
+</div>
+</div>
+<div id="lGzrIUXn7nmK" class="cell code" data-execution_count="100"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:659}"
+id="lGzrIUXn7nmK" data-outputId="36275ee5-8748-4272-a366-8b5d766da904">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">20</span>, <span class="dv">10</span>))</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>sorted_wr.plot(kind<span class="op">=</span><span class="st">&quot;scatter&quot;</span>, x<span class="op">=</span><span class="st">&quot;Player&quot;</span>, y<span class="op">=</span><span class="st">&quot;predicted_points_all&quot;</span>, label<span class="op">=</span><span class="st">&quot;Player&quot;</span>, ax<span class="op">=</span>ax)</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Set xticks so they are scattered</span></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>ax.set_xticklabels([<span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span><span class="op">*</span>(i<span class="op">%</span><span class="dv">2</span>) <span class="op">+</span> l <span class="cf">for</span> i,l <span class="kw">in</span> <span class="bu">enumerate</span>(sorted_wr[<span class="st">&quot;Player&quot;</span>])])</span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-100-5f6aa6e3d2c3&gt;:6: UserWarning: FixedFormatter should only be used together with FixedLocator
+  ax.set_xticklabels([&quot;\n&quot;*(i%2) + l for i,l in enumerate(sorted_wr[&quot;Player&quot;])])
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/57d8d39a57a395cd6f299d616fb42e5a8ec87d47.png" /></p>
+</div>
+</div>
+<div id="xCu6bjQ6DwoQ" class="cell markdown" id="xCu6bjQ6DwoQ">
+<h4>Best Wide Recievers To Select</h4>
+<p>From the visualizations above, it is apparent that Cooper Kupp and
+Deebo Samuel stand out among the rest of the recievers, making them the
+best options to take at reciever. Deebo Samuel is often used in the slot
+as a running back in the red zone, thus gets quite a few rushing
+touchdowns, adding to his total predicted points.</p>
+</div>
+<div id="czYL2cWfEdAN" class="cell markdown" id="czYL2cWfEdAN">
+<h4>Do We Take A Running Back or A Wide Reciever First?</h4>
+<p>This question is tough because it truly depends on who is available
+at the time you make your selection! However, we have enough data to
+make an educated guess based on player's predicted points for the 2023
+season. All 8 of the top wide recievers are predicted to have over 180
+points, while the top 10 running backs are predicted to have over 180
+points. However, the decline in the top 15 running backs is much more
+gradual than that of wide recievers, meaning it is easier to predict a
+running back's production, but the wide recievers are more scattered.
+Ultimately we believe it is better to take an elite wide reciever in the
+early rounds than it is to take a running back. First off, there are
+more running backs that are predicted to score higher fantasy points
+than their wide reciever counterparts. Secondly, the decline in running
+backs is much more gradual and predictable. This means that wherever our
+pick lands, our pick at running back will be comparable to the person
+that picked before us and after us. This is not the case with wide
+recievers, they seem to be much more unpredictable with steeper peaks
+and bigger differences between recievers. Because of this, it is safter
+to take a good, proven, wide reciever as it will be harder to select
+good wide recievers as the draft progresses. We will then take a running
+back in the second round, aiming at a reliable player in the top 15. We
+should stick to this rule and select the best, which happens to be the
+best predicted scoring, player in that at the time of selection. For
+example, we want to select the best available wide reciever in the first
+round, and then the best available running back in the second round.</p>
+</div>
+<div id="uWX_wNTV_jUz" class="cell markdown" id="uWX_wNTV_jUz">
+<h3>Section 4: Machine Learning Insights</h3>
+<p>In this section we will produce machine learning models and
+techniques to depict how accurate the data is in an attempt to predict
+how reliable top, and under, performers will be in 2023.</p>
+<p>For more information about ridge regression and machine learning
+please visit <a
+href="https://www.mygreatlearning.com/blog/what-is-ridge-regression/#"
+class="uri">https://www.mygreatlearning.com/blog/what-is-ridge-regression/#</a>:~:text=Ridge%20regression%20is%20a%20model,away%20from%20the%20actual%20values
+and <a href="https://www.ibm.com/topics/machine-learning"
+class="uri">https://www.ibm.com/topics/machine-learning</a></p>
+</div>
+<div id="e1C8nrRGNzN-" class="cell code" data-execution_count="101"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:497}"
+id="e1C8nrRGNzN-" data-outputId="5cd126f6-7919-4e51-b700-2e74c311b514">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co">#ML model that predicts a players Fantasy Points in 2020 based on how they do in 2019</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>df_2019m <span class="op">=</span> df_2019.copy(deep<span class="op">=</span><span class="va">True</span>) </span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>merged_df <span class="op">=</span> pd.merge(df_2019m, df_2020[[<span class="st">&#39;Player&#39;</span>, <span class="st">&#39;FP_2020&#39;</span>]], on<span class="op">=</span><span class="st">&#39;Player&#39;</span>, how<span class="op">=</span><span class="st">&#39;left&#39;</span>).fillna(<span class="dv">0</span>)</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> merged_df[[<span class="st">&#39;PassingYds&#39;</span>,<span class="st">&#39;PassingTD&#39;</span>, <span class="st">&#39;ReceivingYds&#39;</span>, <span class="st">&#39;ReceivingTD&#39;</span>, <span class="st">&#39;RushingTD&#39;</span>, <span class="st">&#39;FP_2019&#39;</span>]]</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> merged_df[<span class="st">&#39;FP_2020&#39;</span>]</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y,test_size<span class="op">=</span><span class="fl">0.5</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>ridge <span class="op">=</span> Ridge(alpha<span class="op">=</span><span class="fl">0.1</span>) <span class="co"># Alpha is the regularization parameter</span></span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>ridge.fit(X_train, y_train)</span>
+<span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Ridge regression score on test data: </span><span class="sc">{:.3f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(ridge.score(X_test, y_test)))</span>
+<span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> ridge.predict(X_test)</span>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">400</span>], [<span class="dv">0</span>, <span class="dv">400</span>], <span class="st">&#39;r-&#39;</span>)</span>
+<span id="cb48-18"><a href="#cb48-18" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">400</span>], [<span class="dv">50</span>, <span class="dv">450</span>], <span class="st">&#39;y-&#39;</span>)</span>
+<span id="cb48-19"><a href="#cb48-19" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">50</span>, <span class="dv">400</span>], [<span class="dv">0</span>, <span class="dv">350</span>], <span class="st">&#39;y-&#39;</span>)</span>
+<span id="cb48-20"><a href="#cb48-20" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">400</span>], [<span class="dv">110</span>, <span class="dv">510</span>], <span class="st">&#39;g-&#39;</span>)</span>
+<span id="cb48-21"><a href="#cb48-21" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">110</span>, <span class="dv">400</span>], [<span class="dv">0</span>, <span class="dv">290</span>], <span class="st">&#39;g-&#39;</span>)</span>
+<span id="cb48-22"><a href="#cb48-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-23"><a href="#cb48-23" aria-hidden="true" tabindex="-1"></a>plt.scatter(y_test, y_pred)</span>
+<span id="cb48-24"><a href="#cb48-24" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual FP_2020&#39;</span>)</span>
+<span id="cb48-25"><a href="#cb48-25" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted FP_2020&#39;</span>)</span>
+<span id="cb48-26"><a href="#cb48-26" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Actual vs Predicted FP_2020 (Ridge Regression)&#39;</span>)</span>
+<span id="cb48-27"><a href="#cb48-27" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb48-28"><a href="#cb48-28" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Ridge regression score on test data: 0.509
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/1340c7a6a0643799f9e307fa35a0e5352a34726a.png" /></p>
+</div>
+</div>
+<div id="larW3m60er07" class="cell markdown" id="larW3m60er07">
+<p>In this graph we are using the 2019 data to train and predict the
+fantasy points a player will score in 2020. In this case, the closer the
+points are to the red line, the more accurate the prediction for that
+player. We are impressed by how many of the points fall between the
+yellow lines which represent 10% error. The green lines represent 25%
+error. Above the green line we have athletes that severly underpreformed
+in points production. Below the lower green line we have overpreformers.
+It is logical that there are more severe underpreformers because of
+injuries, missed playtime, ect.. Very few of the overpreformers,
+outpaced the predicted scored by more than 25%. those 4 athletes that
+outpreformed the green line did it just barely.</p>
+</div>
+<div id="IHYOmLNA4bmg" class="cell code" data-execution_count="102"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:497}"
+id="IHYOmLNA4bmg" data-outputId="a16e455e-de71-4553-a1d7-9e9829d2a419">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co">#ML model that predicts a players Fantasy Points in 2021 based on how they do in 2020</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>df_2020m <span class="op">=</span> df_2020.copy(deep<span class="op">=</span><span class="va">True</span>) </span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>merged_df <span class="op">=</span> pd.merge(df_2020m, df_2021[[<span class="st">&#39;Player&#39;</span>, <span class="st">&#39;FP_2021&#39;</span>]], on<span class="op">=</span><span class="st">&#39;Player&#39;</span>, how<span class="op">=</span><span class="st">&#39;left&#39;</span>).fillna(<span class="dv">0</span>)</span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> merged_df[[<span class="st">&#39;PassingYds&#39;</span>,<span class="st">&#39;PassingTD&#39;</span>, <span class="st">&#39;ReceivingYds&#39;</span>, <span class="st">&#39;ReceivingTD&#39;</span>, <span class="st">&#39;RushingTD&#39;</span>, <span class="st">&#39;FP_2020&#39;</span>]]</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a><span class="co"># X= merged_df[[&#39;FP_2020&#39;]</span></span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> merged_df[<span class="st">&#39;FP_2021&#39;</span>]</span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y,test_size<span class="op">=</span><span class="fl">0.5</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a>ridge <span class="op">=</span> Ridge(alpha<span class="op">=</span><span class="fl">0.1</span>) <span class="co"># Alpha is the regularization parameter</span></span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>ridge.fit(X_train, y_train)</span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-18"><a href="#cb50-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Ridge regression score on test data: </span><span class="sc">{:.3f}</span><span class="st">&#39;</span>.<span class="bu">format</span>(ridge.score(X_test, y_test)))</span>
+<span id="cb50-19"><a href="#cb50-19" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> ridge.predict(X_test)</span>
+<span id="cb50-20"><a href="#cb50-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-21"><a href="#cb50-21" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">400</span>], [<span class="dv">0</span>, <span class="dv">400</span>], <span class="st">&#39;r-&#39;</span>)</span>
+<span id="cb50-22"><a href="#cb50-22" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">400</span>], [<span class="dv">50</span>, <span class="dv">450</span>], <span class="st">&#39;y-&#39;</span>)</span>
+<span id="cb50-23"><a href="#cb50-23" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">50</span>, <span class="dv">400</span>], [<span class="dv">0</span>, <span class="dv">350</span>], <span class="st">&#39;y-&#39;</span>)</span>
+<span id="cb50-24"><a href="#cb50-24" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">0</span>, <span class="dv">400</span>], [<span class="dv">110</span>, <span class="dv">510</span>], <span class="st">&#39;g-&#39;</span>)</span>
+<span id="cb50-25"><a href="#cb50-25" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">110</span>, <span class="dv">400</span>], [<span class="dv">0</span>, <span class="dv">290</span>], <span class="st">&#39;g-&#39;</span>)</span>
+<span id="cb50-26"><a href="#cb50-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-27"><a href="#cb50-27" aria-hidden="true" tabindex="-1"></a>plt.scatter(y_test, y_pred)</span>
+<span id="cb50-28"><a href="#cb50-28" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual FP_2021&#39;</span>)</span>
+<span id="cb50-29"><a href="#cb50-29" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted FP_2021&#39;</span>)</span>
+<span id="cb50-30"><a href="#cb50-30" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Actual vs Predicted FP_2021 (Ridge Regression)&#39;</span>)</span>
+<span id="cb50-31"><a href="#cb50-31" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Ridge regression score on test data: 0.532
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/c4e6de359cf285e6f778e9a55814c72945413a0a.png" /></p>
+</div>
+</div>
+<div id="Srs0XOjpgHlE" class="cell markdown" id="Srs0XOjpgHlE">
+<p>Here, using 2020 to predict 2021, the prediction seems to be better.
+There are more points very near the red line, lending a tighter
+distribution. More of the points are inside the yellow band than the
+previous year. There apears to have been less injuries, people well
+above the green line with high predicted and low preformance. Also, in
+this season the those overpreformers below the green line have surpassed
+the prediction by quite a margin, compared to last year.</p>
+<p>Looking at both graphs we can see that high point earners (above 250
+actual fantasy points) are more likely to overpreform than underpreform.
+Looking only at the values to the right of 250, most of them are
+overpreformers, because they fall below the red line.</p>
+<p>In general we can say from looking at these two graphs that
+undervalued players are the best way to gain extra fantasy points.</p>
+</div>
+<div id="WZnbMFUnCA5Q" class="cell code" data-execution_count="105"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:606}"
+id="WZnbMFUnCA5Q" data-outputId="7cb291e0-68db-4022-a04c-393838445b9d">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new dataframe with the required columns from df_2021</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>df_2021 <span class="op">=</span> df_2021.rename(columns<span class="op">=</span>{<span class="st">&#39;FP_2021&#39;</span>: <span class="st">&#39;FP_2020&#39;</span>})</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>df_2021_predict <span class="op">=</span> df_2021[[<span class="st">&#39;PassingYds&#39;</span>,<span class="st">&#39;PassingTD&#39;</span>, <span class="st">&#39;ReceivingYds&#39;</span>, <span class="st">&#39;ReceivingTD&#39;</span>, <span class="st">&#39;RushingTD&#39;</span>, <span class="st">&#39;FP_2020&#39;</span>]].copy()</span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a><span class="co"># make predictions on the new dataframe</span></span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a>y_pred_2023 <span class="op">=</span> ridge.predict(df_2021_predict)</span>
+<span id="cb52-8"><a href="#cb52-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-9"><a href="#cb52-9" aria-hidden="true" tabindex="-1"></a><span class="co"># add the predictions to a new column in the original df_2021</span></span>
+<span id="cb52-10"><a href="#cb52-10" aria-hidden="true" tabindex="-1"></a>df_2021[<span class="st">&#39;FP_2023&#39;</span>] <span class="op">=</span> y_pred_2023</span>
+<span id="cb52-11"><a href="#cb52-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-12"><a href="#cb52-12" aria-hidden="true" tabindex="-1"></a><span class="co"># sort the DataFrame by predicted FP_2022 in descending order</span></span>
+<span id="cb52-13"><a href="#cb52-13" aria-hidden="true" tabindex="-1"></a>df_2021_sorted <span class="op">=</span> df_2021.sort_values(by<span class="op">=</span><span class="st">&#39;FP_2023&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb52-14"><a href="#cb52-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-15"><a href="#cb52-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-16"><a href="#cb52-16" aria-hidden="true" tabindex="-1"></a><span class="co">#Want only the non quarterbacks</span></span>
+<span id="cb52-17"><a href="#cb52-17" aria-hidden="true" tabindex="-1"></a>df_2021_sorted <span class="op">=</span> df_2021_sorted.loc[df_2021_sorted[<span class="st">&quot;Pos&quot;</span>] <span class="op">!=</span> <span class="st">&#39;QB&#39;</span>]</span>
+<span id="cb52-18"><a href="#cb52-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-19"><a href="#cb52-19" aria-hidden="true" tabindex="-1"></a><span class="co"># get the top 10 picks</span></span>
+<span id="cb52-20"><a href="#cb52-20" aria-hidden="true" tabindex="-1"></a>top_20_picks <span class="op">=</span> df_2021_sorted.head(<span class="dv">20</span>)</span>
+<span id="cb52-21"><a href="#cb52-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-22"><a href="#cb52-22" aria-hidden="true" tabindex="-1"></a><span class="co"># create a bar chart showing the predicted FP_2022 for each player</span></span>
+<span id="cb52-23"><a href="#cb52-23" aria-hidden="true" tabindex="-1"></a>plt.bar(top_20_picks[<span class="st">&#39;Player&#39;</span>], top_20_picks[<span class="st">&#39;FP_2023&#39;</span>])</span>
+<span id="cb52-24"><a href="#cb52-24" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb52-25"><a href="#cb52-25" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Player&#39;</span>)</span>
+<span id="cb52-26"><a href="#cb52-26" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted FP_2023&#39;</span>)</span>
+<span id="cb52-27"><a href="#cb52-27" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Top 20 Picks for Fantasy Football 2023&#39;</span>)</span>
+<span id="cb52-28"><a href="#cb52-28" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_fa59521a32944b58968f36d135b8719e/3f5e654649d8c3bc0f340c05532734d81aecb09a.png" /></p>
+</div>
+</div>
+<div id="6fbOdgZ7HAXm" class="cell markdown" id="6fbOdgZ7HAXm">
+<p>Here, using the model that predicted the fantasy point values for
+players in 2021 based on their data from 2020, we predict the fantasy
+point values for players in 2022 based on their data from 2021. The top
+20 picks based on their predicted 2022 points are displayed in the chart
+above. It displays a clear heirarchy for people's pick order for their
+fantasy drafts in 2023. We also see that this data is fairly consistent
+with the data found in our linear regressions. Runningbacks seem to
+dominate top positions (disregarding quarterbacks). We see that a couple
+wide recievers make it into the top 20, but there are more running backs
+in the top 20 than there are wide recievers, telling us we need to draft
+a wide reciever like Cooper Kupp or Deebo Samuel in the first round,
+with a running back like Derrick Henry or Josh Jacobs in the second
+round.</p>
+</div>
+<div id="bjt-h2i-h8vl" class="cell markdown" id="bjt-h2i-h8vl">
+<h3>Summary</h3>
+<p>In this tutorial we explored data science techniques aimed at giving
+insights as to what players we should select early in our draft to give
+us the best chance of winning our 2023 fantasy football season. Through
+data exploration we saw that the top performing position were
+quarterbacks, with many less top performing players being in the skill
+positions (running backs and wide recievers). We concluded that this
+information meant it would be hard to come across elite wide reciever
+and running back talent in the late rounds of the draft, ultimately
+leading us to to the conclusion that we should take a wide reciever and
+a running back in the first 2 rounds. We then used linear regression
+techniques to better depict the better overall first pick position and
+what players we may want to target. We found that we should target wide
+recievers like Cooper Kupp, Deebo Samuel, and Justin Jefferson, while we
+should target running abcks like Josh Jacobs and Derrick Henry in the
+second round. Finally, we used machine learning to better depict the
+best players based on stats from previous seasons, along with how
+reliable their points would be. Through these models we found similar
+results to our linear regressions, giving us an accurate picture as to
+what positions, and more importantly which players we should draft early
+in 2023.</p>
+</div>
+</body>
+</html>
